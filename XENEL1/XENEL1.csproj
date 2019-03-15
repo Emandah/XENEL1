@@ -133,8 +133,14 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Executivesecretary\Booking for a Service Provider.aspx" />
+    <Content Include="Executivesecretary\ES MASTERF.aspx" />
+    <Content Include="Executivesecretary\Evaluation 2.aspx" />
+    <Content Include="Executivesecretary\Evaluation.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="General Manager\Add employee sub menu.aspx" />
+    <Content Include="General Manager\Add users submenu.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -142,7 +148,11 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Executivesecretary\ES.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="images\xenel logo.png" />
+    <Content Include="images\xenel.jpg" />
+    <Content Include="login for all.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -172,10 +182,16 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Supervisor\Booking for supervisor.aspx" />
+    <Content Include="Supervisor\Edit Booking submenu.aspx" />
+    <Content Include="Supervisor\Modify Service Provider Submenu.aspx" />
+    <Content Include="Supervisor\Schedule of specific date.aspx" />
+    <Content Include="Supervisor\Service Provider Schedule.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Site1.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -201,8 +217,64 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Executivesecretary\Booking for a Service Provider.aspx.cs">
+      <DependentUpon>Booking for a Service Provider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Executivesecretary\Booking for a Service Provider.aspx.designer.cs">
+      <DependentUpon>Booking for a Service Provider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Executivesecretary\ES.Master.cs">
+      <DependentUpon>ES.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Executivesecretary\ES.Master.designer.cs">
+      <DependentUpon>ES.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Executivesecretary\ES MASTERF.aspx.cs">
+      <DependentUpon>ES MASTERF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Executivesecretary\ES MASTERF.aspx.designer.cs">
+      <DependentUpon>ES MASTERF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Executivesecretary\Evaluation 2.aspx.cs">
+      <DependentUpon>Evaluation 2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Executivesecretary\Evaluation 2.aspx.designer.cs">
+      <DependentUpon>Evaluation 2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Executivesecretary\Evaluation.aspx.cs">
+      <DependentUpon>Evaluation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Executivesecretary\Evaluation.aspx.designer.cs">
+      <DependentUpon>Evaluation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="General Manager\Add employee sub menu.aspx.cs">
+      <DependentUpon>Add employee sub menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="General Manager\Add employee sub menu.aspx.designer.cs">
+      <DependentUpon>Add employee sub menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="General Manager\Add users submenu.aspx.cs">
+      <DependentUpon>Add users submenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="General Manager\Add users submenu.aspx.designer.cs">
+      <DependentUpon>Add users submenu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login for all.aspx.cs">
+      <DependentUpon>login for all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login for all.aspx.designer.cs">
+      <DependentUpon>login for all.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -214,12 +286,56 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor\Booking for supervisor.aspx.cs">
+      <DependentUpon>Booking for supervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Booking for supervisor.aspx.designer.cs">
+      <DependentUpon>Booking for supervisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor\Edit Booking submenu.aspx.cs">
+      <DependentUpon>Edit Booking submenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Edit Booking submenu.aspx.designer.cs">
+      <DependentUpon>Edit Booking submenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor\Modify Service Provider Submenu.aspx.cs">
+      <DependentUpon>Modify Service Provider Submenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Modify Service Provider Submenu.aspx.designer.cs">
+      <DependentUpon>Modify Service Provider Submenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor\Schedule of specific date.aspx.cs">
+      <DependentUpon>Schedule of specific date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Schedule of specific date.aspx.designer.cs">
+      <DependentUpon>Schedule of specific date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Supervisor\Service Provider Schedule.aspx.cs">
+      <DependentUpon>Service Provider Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Service Provider Schedule.aspx.designer.cs">
+      <DependentUpon>Service Provider Schedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
