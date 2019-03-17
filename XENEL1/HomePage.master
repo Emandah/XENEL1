@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8" />    
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" >
+            <table class="auto-style1">
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp; &nbsp;<asp:Image ID="Image1" runat="server" style="height: 16px; width: 14px" />
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+</body>
+</html>
