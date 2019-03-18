@@ -13,6 +13,7 @@
             word-spacing: 100pt;
             border-right-color: #FFFFFF;
             float: right;
+            background-color: #800000;
         }
         .auto-style3 {
             width: 85px;
@@ -24,6 +25,7 @@
         .auto-style5 {
             height: 22px;
             width: 85px;
+            background-color: #800000;
         }
     </style>
 </asp:Content>
